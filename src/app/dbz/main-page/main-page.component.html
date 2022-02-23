@@ -1,0 +1,28 @@
+<h1> Dragon Ball Z</h1>
+<hr>
+
+
+<div class="row">
+    <div class="col">
+        <app-personajes [data]="personajes">
+
+        </app-personajes>
+
+    </div>
+    <div class="col">
+        <app-agregar 
+            [nuevo]="nuevo"     
+            (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"   
+        > 
+
+        </app-agregar>
+
+
+        
+
+    </div>
+</div>
+<!-- () los parentesis son para emitir o escuchar eventos
+[] los corchetes son para establer alguna propiedad en algun objeto determinado -->
+
+<!-- Los pipes sirve para modificar de forma visual la información -->

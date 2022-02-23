@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
     templateUrl: 'heroe.component.html'
 })
 
-export default class HeroeComponent{
+export class HeroeComponent{
     nombre: string = 'Ironman';
     edad  : number =  45;
 
